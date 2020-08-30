@@ -6,7 +6,7 @@ end
 def batch_badge_creator(names)
   batch = %w()
   names.each{ |name| batch << badge_maker(name)}
-  batch
+  print batch
 end
 
 def assign_rooms(assignments)
@@ -15,7 +15,7 @@ def assign_rooms(assignments)
   assignments.each do |name|
     person << "Hello, #{name}! You'll be assigned to room #{assignments.index(name) + 1}!"
   end
-  person
+  print person
 end
 
 def printer(attendees)
