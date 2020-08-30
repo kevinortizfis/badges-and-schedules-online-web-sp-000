@@ -6,7 +6,7 @@ end
 def batch_badge_creator(names)
   batch = %w()
   names.each{ |name| batch << badge_maker(name)}
-  print batch
+  batch
 end
 
 def assign_rooms(assignments)
