@@ -20,5 +20,6 @@ end
 
 def printer(attendees)
 badge = batch_badge_creator(attendees)
-badge.each {|name| puts name}
+badge.each do |x|
+   puts x 
 end
