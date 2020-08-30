@@ -19,6 +19,5 @@ def assign_rooms(assignments)
 end
 
 def printer(attendees)
-print batch
-print person
+  
 end
