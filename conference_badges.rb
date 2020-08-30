@@ -20,4 +20,6 @@ end
 
 def printer(attendees)
 puts batch_badge_creator(attendees.index)
+assignment = gets.strip
+puts assign_rooms(assignments)
 end
